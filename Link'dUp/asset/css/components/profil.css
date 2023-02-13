@@ -1,0 +1,24 @@
+#profil{
+    width: auto;
+    height: 50rem;
+}
+
+.profil-img{
+    margin-left: 45%;
+}
+
+.profil-img img{
+    width: 149px;
+    height: 139px;
+    border-radius: 50%;
+    clip-path: ellipse(50% 50%);
+}
+
+.profil-texte{
+    text-align: center;
+    font-size: large;
+}
+
+
+
+

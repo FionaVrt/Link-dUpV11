@@ -1,0 +1,120 @@
+nav{
+    display: flex;
+    align-items: center;
+    width: 70%;
+}
+
+.i_nav{
+    display: flex;
+    flex-direction: row;
+    margin-left: 20%;
+    justify-items: auto;
+    margin-top: 5px;
+}
+
+input{
+    width: 300px;
+    display: flex;
+    margin-left: 10px;
+    height: 30px;
+    margin-top: 10px;
+}
+
+.logo{
+    width: auto;
+    height: 70px;
+    margin: 2%;
+}
+
+.parametre{
+    width: 200px;
+    display: flex;
+    position: relative;
+    margin-left: 10%;
+    margin-top: 1rem;
+}
+
+
+#log{
+    position: relative;
+    display: inline-block;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+#singn{
+    position: relative;
+    color: bisque;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 5px;
+    cursor: pointer;
+    border-radius: 8px;
+    border: none;
+    background-color: #6088d7;
+}
+
+/* SideNav */
+
+/* show menu */
+.blocknavigation{
+    bottom: 0;
+}
+
+
+@media (min-width: 640px) {
+    .i_nav{
+    max-width: 640px;
+    }
+    .blocknavigation{
+        max-width: 640px;
+    }
+    input{
+        max-width: 640px;
+    }
+    .logo{
+        max-width: 640px;
+    }
+    .parametre{
+        max-width: 640px;
+    }
+    #log{
+        max-width: 640px;
+    }
+    #singn{
+        max-width: 640px;
+    }
+}
+
+@media (min-width: 768px) {
+    .i_nav {
+    max-width: 768px;
+    }
+    .blocknavigation{
+        max-width: 768px;
+    }
+    input{
+        max-width: 768px;
+    }
+    .logo{
+        max-width: 768px;
+    }
+    .parametre{
+        max-width: 768px;
+    }
+    #log{
+        max-width: 768px;
+    }
+    #singn{
+        max-width: 768px;
+    }
+}
